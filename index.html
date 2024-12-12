@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeone DNS Suspend Forwarding</title>
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background-image: linear-gradient(to bottom, #3a86ff, #ff006e);
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Add background image */
+        body {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Container Styles */
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Logo Styles */
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 100px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        /* Heading Styles */
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Paragraph Styles */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Button Styles */
+        .btn {
+            background-color: #2d307f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Ubuntu', sans-serif;
+            display: inline-flex;
+            justify-content: center;
+            margin: 10px;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #1a1d5f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="GREEONE.png" width="100" height="120" alt="Greeone JHS">
+        </div>
+        <h1>Website Blocked</h1>
+        <p>Oops! Situs ini telah diblokir oleh Tim Greeone JHS</p>
+        <p>Alasannya? Situs ini mengandung konten negatif yang melanggar "Hukum Dan Tata Tertib Greeone". Ini untuk melindungi keselamatan dan kesejahteraan pengguna internet.</p>
+        <button class="btn" onclick="contactOwner()">Email Kepada Pemilik DNS</button>
+        <button class="btn" onclick="learnMore()">LMS SMPN 1 CIMAHI</button>
+        <button class="btn" onclick="google()">Re-Direct To Website</button>
+    </div>
+    <script>
+        function contactOwner() {
+            window.location.href = "mailto:fanumtax@sigma.com";
+        }
+
+        function learnMore() {
+            window.location.href = "http://lms.smpn1-cimahi.sch.id";
+        }
+
+        function google() {
+            window.location.href = "history.back()";
+        }
+        </script>
+</body>
+</html>
